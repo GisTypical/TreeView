@@ -1,0 +1,137 @@
+{
+  "raiz": [
+    {
+      "nombre": "Bebidas",
+      "hijos": [
+        {
+          "nombre": "Refresco",
+          "hijos": [
+            {
+              "nombre": "Cola Negra",
+              "hijos": [
+                {
+                  "nombre": "CocaCola"
+                },
+                {
+                  "nombre": "Pepsi"
+                }
+              ]
+            },
+            {
+              "nombre": "Limon",
+              "hijos": [
+                {
+                  "nombre": "Sprite"
+                },
+                {
+                  "nombre": "Fanta"
+                },
+                {
+                  "nombre": "7-Up"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Te Frio",
+          "hijos": [
+            {
+              "nombre": "Lipton",
+              "hijos": [
+                {
+                  "nombre": "Limon"
+                },
+                {
+                  "nombre": "Durazno"
+                }
+              ]
+            },
+            {
+              "nombre": "Nestea",
+              "hijos": [
+                {
+                  "nombre": "Limon"
+                },
+                {
+                  "nombre": "Durazno"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Pan",
+      "hijos": [
+        {
+          "nombre": "Frances"
+        },
+        {
+          "nombre": "Dulce"
+        },
+        {
+          "nombre": "Quesadilla"
+        },
+        {
+          "nombre": "De Jamon"
+        }
+      ]
+    },
+    {
+      "nombre": "Queso",
+      "hijos": [
+        {
+          "nombre": "Parmesano"
+        }
+      ]
+    },
+    {
+      "nombre": "Salsas",
+      "hijos": [
+        {
+          "nombre": "Mayonesa",
+          "hijos": [
+            {
+              "nombre": "Mavesa"
+            },
+            {
+              "nombre": "Kraft"
+            }
+          ]
+        },
+        {
+          "nombre": "Tomate",
+          "hijos": [
+            {
+              "nombre": "Heinz"
+            }
+          ]
+        },
+        {
+          "nombre": "Rosada",
+          "hijos": [
+            {
+              "nombre": "Heinz"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Azucar"
+    },
+    {
+      "nombre": "Chucherias",
+      "hijos": [
+        {
+          "nombre": "Pepito"
+        },
+        {
+          "nombre": "Doritos"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "raiz": [
+    {
+      "nombre": "Alpha",
+      "hijos": [
+        {
+          "nombre": "Α"
+        },
+        {
+          "nombre": "α"
+        }
+      ]
+    },
+    {
+      "nombre": "Beta",
+      "hijos": [
+        {
+          "nombre": "Β"
+        },
+        {
+          "nombre": "β"
+        }
+      ]
+    },
+    {
+      "nombre": "Gamma",
+      "hijos": [
+        {
+          "nombre": "Γ"
+        },
+        {
+          "nombre": "γ"
+        }
+      ]
+    },
+    {
+      "nombre": "Delta",
+      "hijos": [
+        {
+          "nombre": "Δ"
+        },
+        {
+          "nombre": "δ"
+        }
+      ]
+    }
+  ]
+}

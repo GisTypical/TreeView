@@ -1,0 +1,31 @@
+h1, h2, ul, p{
+  font-family: "Grandstander", monospace;
+}
+
+@keyframes RGBbienlindo {
+  0% {
+    color: red;
+  }
+  20% {
+    color: orange;
+  }
+  40% {
+    color: yellow;
+  }
+  60% {
+    color: green;
+  }
+  80% {
+    color: blue;
+  }
+  100% {
+    color: purple;
+  }
+}
+
+::marker, strong{
+  animation-name: RGBbienlindo;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
