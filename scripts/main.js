@@ -1,7 +1,7 @@
 class Styles extends HTMLElement {
-    
-    constructor(){
-        
+
+    constructor() {
+
         // Siempre se debe tener el super
         super();
 
@@ -9,7 +9,6 @@ class Styles extends HTMLElement {
         const linkElem = document.createElement('link');
         linkElem.setAttribute('rel', 'stylesheet');
         linkElem.setAttribute('href', 'styles.css');
-
 
         document.head.appendChild(linkElem);
 

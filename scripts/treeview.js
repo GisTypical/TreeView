@@ -10,7 +10,6 @@ class TreeView extends HTMLUListElement {
 
         this.obtenerJSON();
 
-
     }
 
     obtenerJSON() {
@@ -32,7 +31,7 @@ class TreeView extends HTMLUListElement {
             padreElmt.innerHTML = `${padreJSON.nombre}`;
             this.appendChild(padreElmt);
             if (padreJSON[`hijos`] !== undefined) {
-                this.addHijos(padreElmt, padreJSON); 
+                this.addHijos(padreElmt, padreJSON);
             }
         });
     }
@@ -87,7 +86,7 @@ class TreeView extends HTMLUListElement {
                 hijosText.parentNode.removeChild(hijosText);
                 span.onclick = (e) => {
                     // Obtener el nodo siguiente
-                    var siguiente = e.target.nextElementSibling;;
+                    var siguiente = e.target.nextElementSibling;
                     if (siguiente.style.display == ``) {
                         // Ocultar los hijos al darle click
                         siguiente.style.display = `none`;
@@ -99,7 +98,7 @@ class TreeView extends HTMLUListElement {
                         console.log(siguiente.style.display);
                     }
                 }
-           }
+            }
         });
     }
 }
