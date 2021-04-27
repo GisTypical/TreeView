@@ -1,8 +1,11 @@
-h1, h2, ul, p{
+h1, h2, ul, p {
   font-family: "Grandstander", monospace;
 }
+ul {
+  transition: transform 1s;
+}
 
-@keyframes RGBbienlindo {
+@keyframes RGB {
   0% {
     color: red;
   }
@@ -24,7 +27,7 @@ h1, h2, ul, p{
 }
 
 ::marker, strong{
-  animation-name: RGBbienlindo;
+  animation-name: RGB;
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-direction: alternate;

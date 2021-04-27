@@ -1,0 +1,104 @@
+{
+  "root": [
+    {
+      "value": "Drinks",
+      "children": [
+        {
+          "value": "Soft Drink",
+          "children": [
+            {
+              "value": "Cola",
+              "children": [
+                {
+                  "value": "CocaCola"
+                },
+                {
+                  "value": "Pepsi"
+                }
+              ]
+            },
+            {
+              "value": "Lemon",
+              "children": [
+                {
+                  "value": "Sprite"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "value": "Tea",
+          "children": [
+            {
+              "value": "Lipton",
+              "children": [
+                {
+                  "value": "Lemon"
+                },
+                {
+                  "value": "Peach"
+                }
+              ]
+            },
+            {
+              "value": "Nestea",
+              "children": [
+                {
+                  "value": "Lemon"
+                },
+                {
+                  "value": "Peach"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "value": "Bread"
+    },
+    {
+      "value": "Cheese",
+      "children": [
+        {
+          "value": "Parmesan"
+        },
+        {
+          "value": "Blue"
+        }
+      ]
+    },
+    {
+      "value": "Sauces",
+      "children": [
+        {
+          "value": "Mayonnaise"
+        },
+        {
+          "value": "Tomato",
+          "children": [
+            {
+              "value": "Heinz"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "value": "Sugar"
+    },
+    {
+      "value": "Snacks",
+      "children": [
+        {
+          "value": "Lays"
+        },
+        {
+          "value": "Doritos"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "root": [
+    {
+      "value": "Alpha",
+      "children": [
+        {
+          "value": "Α"
+        },
+        {
+          "value": "α"
+        }
+      ]
+    },
+    {
+      "value": "Beta",
+      "children": [
+        {
+          "value": "Β"
+        },
+        {
+          "value": "β"
+        }
+      ]
+    },
+    {
+      "value": "Gamma",
+      "children": [
+        {
+          "value": "Γ"
+        },
+        {
+          "value": "γ"
+        }
+      ]
+    },
+    {
+      "value": "Delta",
+      "children": [
+        {
+          "value": "Δ"
+        },
+        {
+          "value": "δ"
+        }
+      ]
+    }
+  ]
+}
